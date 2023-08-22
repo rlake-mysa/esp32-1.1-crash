@@ -1,0 +1,30 @@
+menu "Project Configuration"
+    menu "AP Configuration"
+        config AP_SSID
+            string "AP SSID"
+            default "myssid"
+            help
+                The SSID of the AP to create.
+        
+        config AP_PASSWORD
+            string "AP Password"
+            default "mypassword"
+            help
+                The password of the AP to create.
+    endmenu
+
+    menu "Station Configuration"
+        config REMOTE_AP_SSID
+            string "Remote AP SSID"
+            default "myssid"
+            help
+                The SSID of the remote AP to connect to.
+
+        config REMOTE_AP_PASSWORD
+            string "Remote AP Password"
+            default "mypassword"
+            help
+                The password of the remote AP to connect to.
+
+    endmenu
+endmenu

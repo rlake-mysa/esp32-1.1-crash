@@ -1,0 +1,8 @@
+.devcontainer
+.vscode
+Makefile
+build
+defconfig
+example_test.py
+sdkconfig
+sdkconfig.old
